@@ -1,9 +1,16 @@
 # HackWars World
 
-The engine that drives the HackWars world-map.
+The HackWars world map, what for you walk around in.
 
-Currently just a rough demo of using Browserify to pull in the Pixi.js
+This is currently just a demonstrating of using Browserify to bootstrap the Pixi.js
 game engine.
+
+## Running
+
+1. git clone this repo.
+2. `npm install`
+3. `npm run watch`, this will keep track of changes to main.js.
+4. `npm run start`, start
 
 ## License
 

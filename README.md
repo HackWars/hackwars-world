@@ -1,8 +1,8 @@
 # HackWars World
 
-The HackWars world map, what for you walk around in.
+The HackWars world map (your player walks around on this).
 
-This is currently just a demonstrating of using Browserify to bootstrap the Pixi.js
+This is currently just a demonstration of using Browserify to bootstrap the Pixi.js
 game engine.
 
 ## Running

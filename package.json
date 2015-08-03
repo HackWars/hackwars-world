@@ -1,0 +1,34 @@
+{
+  "name": "hackwars-world",
+  "version": "1.0.0",
+  "description": "the HackWars meatspace game world (the one you walk around in).",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha test",
+    "build": "NODE_ENV=production browserify main.js | uglifyjs -cm > assets/js/bundle.js",
+    "start": "ecstatic -p 5555 assets",
+    "watch": "watchify main.js -o assets/js/bundle.js -dv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HackWars/hackwars-world.git"
+  },
+  "keywords": [
+    "hackwars",
+    "rpg",
+    "meatspace"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackWars/hackwars-world/issues"
+  },
+  "homepage": "https://github.com/HackWars/hackwars-world#readme",
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "ecstatic": "^0.8.0",
+    "pixi.js": "^3.0.7",
+    "uglifyjs": "^2.4.10",
+    "watchify": "^3.3.1"
+  }
+}
